@@ -367,11 +367,15 @@
     ```bash
     # 1 - Backoffice
     cd <PROJECT_DIR>/Src
+    
+    yarn install
 
     yarn build
 
     # 2 - Frontend
     cd Litium.Accelerator.Mvc
+    
+    yarn install
 
     yarn build
     ```
@@ -382,7 +386,7 @@
     yarn build:w
     ```
 
-1. Fire up the server with .NET 6
+1. Fire up the server with .NET 6 from within `<PROJECT_DIR>/Src/Litium.Accelerator.Mvc`
 
     ```bash
     dotnet run
